@@ -8,11 +8,13 @@ package lab3;
  *
  */
 public class Person {
+	//Rowan Flake Farrell
 	String name;  // name of person
 	String address; // address of person
 	String postcode; // postcode of person's address
 	Animal pet; // associate a pet that is an Animal object with the Person
-	
+	Course myCourse;
+	static int numberEnrolled;
 	
 	// constructor - create Person given name, address and a Pet object
 	/**
@@ -20,10 +22,15 @@ public class Person {
 	 * @param address
 	 * @param pet
 	 */
-	public Person(String name, String address, Animal pet) {
+	public Person(String name, String address, Animal pet, Course myCourse) {
 		this.name = name;
 		this.address = address;
 		this.pet = pet;
+		this.myCourse = myCourse;
+	}
+	
+	public void enrolInCourse (Course myCourse){
+		numberEnrolled++;
 	}
 	
 	// constructor - create Person given address, name and postcode

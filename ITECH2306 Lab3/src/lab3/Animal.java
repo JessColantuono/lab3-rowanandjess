@@ -8,6 +8,7 @@ package lab3;
  *
  */
 public class Animal {
+	// Rowan Flake Farrell
 
 	private String breed;
 	private String name;
