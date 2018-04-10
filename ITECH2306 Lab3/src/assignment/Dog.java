@@ -7,9 +7,51 @@ package assignment;
  */
 public class Dog extends Animal {
 
-	private boolean desexed;
-	private int microchipID;
-	private boolean vaccination;
+	/**
+	 * @return the desexed
+	 */
+	private boolean isDesexed() {
+		return desexed;
+	}
+
+	/**
+	 * @param desexed the desexed to set
+	 */
+	private void setDesexed(boolean desexed) {
+		this.desexed = desexed;
+	}
+
+	/**
+	 * @return the microchipID
+	 */
+	private int getMicrochipID() {
+		return microchipID;
+	}
+
+	/**
+	 * @param microchipID the microchipID to set
+	 */
+	private void setMicrochipID(int microchipID) {
+		this.microchipID = microchipID;
+	}
+
+	/**
+	 * @return the vaccination
+	 */
+	private boolean isVaccination() {
+		return vaccination;
+	}
+
+	/**
+	 * @param vaccination the vaccination to set
+	 */
+	private void setVaccination(boolean vaccination) {
+		this.vaccination = vaccination;
+	}
+
+	public boolean desexed;
+	public int microchipID;
+	public boolean vaccination;
 
 	public Dog(){
 

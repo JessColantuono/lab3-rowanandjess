@@ -5,15 +5,15 @@ package assignment;
  * @version 1.0
  * @created 10-Apr-2018 12:38:48 PM
  */
-public class Animal {
+abstract public class Animal {
 
-	private int age;
-	private char breed;
-	private char dateOfBirth;
-	private int regCode;
-	private char regDate;
-	private char regDueDate;
-	private int standardRegFee;
+	public String name;
+	public String breed;
+	public String age;
+	public int regCode;
+	public char regDate;
+	public String regDueDate;
+	
 
 	public Animal(){
 

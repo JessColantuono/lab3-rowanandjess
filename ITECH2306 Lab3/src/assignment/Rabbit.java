@@ -12,6 +12,20 @@ public class Rabbit extends Animal {
 	 */
 	private int microchipID;
 
+	/**
+	 * @return the microchipID
+	 */
+	private int getMicrochipID() {
+		return microchipID;
+	}
+
+	/**
+	 * @param microchipID the microchipID to set
+	 */
+	private void setMicrochipID(int microchipID) {
+		this.microchipID = microchipID;
+	}
+
 	public Rabbit(){
 
 	}
