@@ -7,11 +7,14 @@ package assignment;
  */
 public class Person {
 
-	public char address;
+	public String name;
+	public String address;
 	public int age;
-	public char city;
-	public char dateOfBirth;
-	public char name;
+	public chStringar city;
+	public String postcode;
+	public String dateOfBirth;
+	public long telephoneNumber;
+
 	/**
 	 * @return the address
 	 */
