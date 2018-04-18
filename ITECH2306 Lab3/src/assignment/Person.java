@@ -1,9 +1,7 @@
 package assignment;
 
 /**
- * @author 30333241
- * @version 1.0
- * @created 10-Apr-2018 12:38:52 PM
+30333241 - Rowan Farrell & 30126235- Jessica Colantuono
  */
 public class Person {
 
@@ -11,21 +9,21 @@ public class Person {
 	public String address;
 	public int age;
 	public String city;
-	public String postcode;
+	public int postcode;//This is coming up with errors in the code - need to figure out why
 	public String dateOfBirth;
-	public long telephoneNumber;
+	public long telephoneNumber;//This is coming up with errors in the code - need to figure out why
 
 	/**
 	 * @return the address
 	 */
-	private char getAddress() {
+	private String getAddress() {
 		return address;
 	}
 
 	/**
 	 * @param address the address to set
 	 */
-	private void setAddress(char address) {
+	private void setAddress(String address) {
 		this.address = address;
 	}
 
@@ -46,42 +44,42 @@ public class Person {
 	/**
 	 * @return the city
 	 */
-	private char getCity() {
+	private String getCity() {
 		return city;
 	}
 
 	/**
 	 * @param city the city to set
 	 */
-	private void setCity(char city) {
+	private void setCity(String city) {
 		this.city = city;
 	}
 
 	/**
 	 * @return the dateOfBirth
 	 */
-	private char getDateOfBirth() {
+	private String getDateOfBirth() {
 		return dateOfBirth;
 	}
 
 	/**
 	 * @param dateOfBirth the dateOfBirth to set
 	 */
-	private void setDateOfBirth(char dateOfBirth) {
+	private void setDateOfBirth(String dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
 
 	/**
 	 * @return the name
 	 */
-	private char getName() {
+	private String getName() {
 		return name;
 	}
 
 	/**
 	 * @param name the name to set
 	 */
-	private void setName(char name) {
+	private void setName(String name) {
 		this.name = name;
 	}
 
@@ -102,7 +100,7 @@ public class Person {
 	/**
 	 * @return the telephoneNumber
 	 */
-	private int getTelephoneNumber() {
+	private long getTelephoneNumber() {
 		return telephoneNumber;
 	}
 
@@ -131,7 +129,7 @@ public class Person {
 	/**
 	 * Telephone number will be an optional field
 	 */
-	private int telephoneNumber;
+	private long telephoneNumber;
 	public Animal m_Animal;
 
 	public Person(){
