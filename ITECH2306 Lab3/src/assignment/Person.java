@@ -10,7 +10,7 @@ public class Person {
 	public String name;
 	public String address;
 	public int age;
-	public chStringar city;
+	public String city;
 	public String postcode;
 	public String dateOfBirth;
 	public long telephoneNumber;
